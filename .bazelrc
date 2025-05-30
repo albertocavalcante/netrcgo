@@ -1,0 +1,7 @@
+# CI-specific settings
+build:ci --verbose_failures
+build:ci --test_output=errors
+build:ci --noshow_progress
+
+# Test settings
+test --test_verbose_timeout_warnings 

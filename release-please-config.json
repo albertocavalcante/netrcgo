@@ -1,0 +1,15 @@
+{
+    "packages": {
+        ".": {
+            "release-type": "bazel",
+            "bump-minor-pre-major": true,
+            "bump-patch-for-minor-pre-major": true,
+            "versioning": "default",
+            "include-v-in-tag": true,
+            "initial-version": "0.1.0",
+            "prerelease": false,
+            "prerelease-type": "rc"
+        }
+    },
+    "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json"
+} 
